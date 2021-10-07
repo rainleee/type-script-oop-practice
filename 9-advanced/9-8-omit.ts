@@ -6,7 +6,7 @@
     data: string;
   };
 
-  //
+  //Omit는 any type을 받는다.
   type VideoMetadata = Omit<Video, 'url' | 'data' | 'dsds'>;
 
   function getVideo(id: string): Video {
